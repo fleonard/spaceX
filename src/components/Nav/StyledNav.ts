@@ -1,33 +1,66 @@
 import styled from "styled-components/macro";
 import { Box, List } from "@material-ui/core";
 
+const StyledNavContainer = styled.div`
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  position: relative;
+
+  svg {
+    display: block;
+    fill: #fff;
+    height: auto;
+    width: 200px;
+  }
+`;
+
 const StyledNav = styled(List)`
-  ${({ theme }) => `
-    background-color: ${theme.palette.primary.main};
+  display: none;
+  padding: 0;
+
+  @media (min-width: 768px) {
     display: flex;
-    padding: 0 20px;
-  `}
+  }
 `;
 
 const NavItem = styled(Box)`
-  ${({ theme }) => `
-    align-items: stretch
-    box-sizing: content-box;
-    padding: 20px;
+  align-items: stretch;
+  box-sizing: content-box;
+  padding: 0 10px;
 
-    a {
-      align-items: center;
-      color: ${theme.palette.primary.contrastText};
-      display: flex;
-      justify-content: center;
-      text-decoration: none;
-      text-transform: uppercase;
+  a {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s;
 
-      &:hover {
-        color: ${theme.palette.primary.dark};
+    &::after {
+      background: #fff;
+      bottom: 0;
+      color: transparent;
+      content: ".";
+      height: 1px;
+      left: 0;
+      margin: auto;
+      position: absolute;
+      right: 0;
+      transition: all 0.5s;
+      width: 0%;
+    }
+
+    &:hover {
+      &:after {
+        width: 100%;
       }
     }
-  `}
+  }
 `;
 
-export { StyledNav, NavItem };
+export { StyledNavContainer, StyledNav, NavItem };

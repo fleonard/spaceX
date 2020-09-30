@@ -1,22 +1,36 @@
-import React, { Fragment } from "react";
+import React, { useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
 
-import  {  StyledNav, NavItem  } from "./StyledNav";
+import { useClickOutside } from "../../hooks/useClickOutside";
 
+import { ReactComponent as Logo } from "../../images/spacex-logo.svg";
+
+import Burger from "../Burger/Burger";
+import Menu from "../Menu/Menu";
+
+import { StyledNavContainer, StyledNav, NavItem } from "./StyledNav";
 
 const Nav: React.FC = () => {
+  const [open, setOpen] = useState(false);
+  const node = useRef<HTMLDivElement>(null);
+
+  useClickOutside(node, () => setOpen(false));
+
   return (
-    <Fragment>
+    <StyledNavContainer ref={node}>
+      <Logo />
+      <Burger open={open} setOpen={setOpen} aria-controls="mobile-menu" />
       <StyledNav>
         <NavItem component="li">
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/rockets">Rockets</NavLink>
         </NavItem>
         <NavItem component="li">
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/dragons">Dragons</NavLink>
         </NavItem>
       </StyledNav>
-    </Fragment>
+      <Menu open={open} id="mobile-menu" />
+    </StyledNavContainer>
   );
 };
 
-export  default Nav;
+export default Nav;
