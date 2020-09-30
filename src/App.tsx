@@ -1,28 +1,25 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { Box, ThemeProvider as MuiThemeProvider } from "@material-ui/core";
-import { ThemeProvider } from "styled-components/macro";
+import { BrowserRouter, Switch, Redirect, Route } from "react-router-dom";
+import { Box } from "@material-ui/core";
 
-import About from "./views/About/About";
-import Home from "./views/Home/Home";
+import { GlobalStyles } from "./globalStyles";
+
+import Dragons from "./views/Dragons/Dragons";
+import Rockets from "./views/Rockets/Rockets";
 import Nav from "./components/Nav/Nav";
-
-import theme from "./ui/theme";
 
 const App: React.FC = () => {
   return (
     <BrowserRouter>
-    <MuiThemeProvider theme={theme}>
-    <ThemeProvider theme={theme}>
+      <GlobalStyles />
       <Box component="main" className="container">
         <Nav />
         <Switch>
-          <Route path="/" component={Home} exact />
-          <Route path="/about" component={About} />
+          <Redirect exact from="/" to="/rockets" />
+          <Route path="/rockets" component={Rockets} />
+          <Route path="/dragons" component={Dragons} />
         </Switch>
       </Box>
-    </ThemeProvider>
-    </MuiThemeProvider>
     </BrowserRouter>
   );
 };
