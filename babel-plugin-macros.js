@@ -1,5 +1,6 @@
 module.exports = {
   styledComponents: {
-    displayName: process.env.NODE_ENV !== "production"
-  }
+    displayName: process.env.NODE_ENV !== "production",
+    pure: true,
+  },
 };

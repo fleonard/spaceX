@@ -1,2 +1,6 @@
 src/serviceWorker.ts
 /functions/*
+node_modules
+dist
+build
+README.md
