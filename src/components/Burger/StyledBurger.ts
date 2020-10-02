@@ -5,33 +5,33 @@ interface BurgerProps {
 }
 
 const StyledBurger = styled.div<BurgerProps>`
-  width: 30px;
+  cursor: pointer;
   height: 30px;
   position: relative;
   transform: rotate(0deg);
   transition: 0.5s ease-in-out;
-  cursor: pointer;
+  width: 30px;
 
   span {
-    display: block;
-    position: absolute;
-    height: 4px;
-    width: 100%;
     background: #fff;
     border-radius: 9px;
-    opacity: 1;
+    display: block;
+    height: 4px;
     left: 0;
+    opacity: 1;
+    position: absolute;
     transform: rotate(0deg);
     transition: 0.25s ease-in-out;
+    width: 100%;
 
     :first-child {
       top: ${({ open }) => (open ? "15px" : "0px")};
       transform: ${({ open }) => (open ? "rotate(135deg)" : "rotate(0)")};
     }
     :nth-child(2) {
-      top: 13px;
-      opacity: ${({ open }) => (open ? "0" : "1")};
       left: ${({ open }) => (open ? "-60px" : "0")};
+      opacity: ${({ open }) => (open ? "0" : "1")};
+      top: 13px;
     }
     :nth-child(3) {
       top: ${({ open }) => (open ? "15px" : "25px")};

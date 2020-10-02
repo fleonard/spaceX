@@ -8,6 +8,12 @@ const StyledNavContainer = styled.div`
   padding: 15px 20px;
   position: relative;
 
+  &.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
   svg {
     display: block;
     fill: #fff;

@@ -8,6 +8,7 @@ export const useClickOutside = (ref: any, handler: any) => {
       }
       handler(event);
     };
+
     document.addEventListener("mousedown", listener);
 
     return () => {

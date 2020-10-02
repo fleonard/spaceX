@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 
 import { useClickOutside } from "../../hooks/useClickOutside";
 
+import { useSticky } from "../../hooks/useSticky";
+
 import { ReactComponent as Logo } from "../../images/spacex-logo.svg";
 
 import Burger from "../Burger/Burger";
@@ -14,10 +16,12 @@ const Nav: React.FC = () => {
   const [open, setOpen] = useState(false);
   const node = useRef<HTMLDivElement>(null);
 
+  const isSticky = useSticky(node, 70);
+
   useClickOutside(node, () => setOpen(false));
 
   return (
-    <StyledNavContainer ref={node}>
+    <StyledNavContainer ref={node} className={`${isSticky && "sticky"}`}>
       <Logo />
       <Burger open={open} setOpen={setOpen} aria-controls="mobile-menu" />
       <StyledNav>
