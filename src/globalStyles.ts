@@ -10,8 +10,8 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    text-rendering: optimizeLegibility;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    text-rendering: optimizeLegibility;
   }
 
   h1,
@@ -22,8 +22,8 @@ const GlobalStyles = createGlobalStyle`
   }
 
   a {
-    text-decoration: none;
     color: #000;
+    text-decoration: none;
   }
 `;
 
@@ -45,21 +45,22 @@ const ListWrapper = styled(List)`
   padding-top: 25px;
 
   a {
-      border-radius: 6px;
-      border: 1px solid #dadce0;
-      margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #dadce0;
+    margin: 5px;
 
-  @media (min-width: 768px) {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+    @media (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
 
-  @media (min-width: 1200px) {
-    a {
-      &:hover {
-        box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
-          0px 3px 4px 0px rgba(0, 0, 0, 0.14),
-          0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+    @media (min-width: 1200px) {
+      a {
+        &:hover {
+          box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+            0px 3px 4px 0px rgba(0, 0, 0, 0.14),
+            0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+        }
       }
     }
   }
