@@ -1,0 +1,659 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DragonPage Component renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 15px 20px;
+}
+
+.c1 {
+  border-bottom: 1px solid #dadce0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 25px 0;
+}
+
+.c1:first-child {
+  padding-top: 25px;
+}
+
+.c1:last-child {
+  border: 0;
+}
+
+.c2 {
+  display: block;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.c2 img {
+  height: auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.c3 {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.c3 a:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c3 table span {
+  color: #868686;
+}
+
+.c4.c4 {
+  min-width: 600px;
+  margin-bottom: 20px;
+}
+
+@media (min-width:1000px) {
+  .c1 {
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 80px 0;
+  }
+}
+
+@media (min-width:1000px) {
+  .c2 {
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width:1000px) {
+  .c3 {
+    padding-bottom: 0px;
+    padding-right: 20px;
+  }
+}
+
+<div
+  class="c0"
+>
+  <section
+    class="c1"
+    data-testid="informations"
+  >
+    <div
+      class="c2"
+    >
+      <img
+        alt="Dragon 1"
+        src="https://imgur.com/DaCfMsj.jpg"
+      />
+    </div>
+    <div
+      class="c3"
+    >
+      <h2>
+        Dragon 1
+      </h2>
+      <p>
+        Dragon is a reusable spacecraft developed by SpaceX, an American private space transportation company based in Hawthorne, California. Dragon is launched into space by the SpaceX Falcon 9 two-stage-to-orbit launch vehicle. The Dragon spacecraft was originally designed for human travel, but so far has only been used to deliver cargo to the International Space Station (ISS).
+      </p>
+      <h3>
+        Additional Informations
+      </h3>
+      <table
+        aria-label="simple table"
+        class="MuiTable-root c4"
+      >
+        <tbody
+          class="MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Crew capacity
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              0
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Frist flight
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              2010-12-8
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Type
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              capsule
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <a
+        href="https://en.wikipedia.org/wiki/SpaceX_Dragon"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Checkout wikipidia page for more.
+      </a>
+    </div>
+  </section>
+  <section
+    class="c1"
+    data-testid="overview"
+  >
+    <div
+      class="c3"
+    >
+      <h3>
+        Dragon
+      </h3>
+      <h2>
+        Overview
+      </h2>
+      <table
+        aria-label="simple table"
+        class="MuiTable-root c4"
+      >
+        <tbody
+          class="MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Diameter
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              3.7
+               m
+              <span>
+                 / 
+                12
+                 ft
+              </span>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Height with trunk
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              7.2
+               m
+              <span>
+                 / 
+                23.6
+                 ft
+              </span>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Dry Mass
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              4200
+               kg
+              <span>
+                 / 
+                9300
+                 lb
+              </span>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Launch payload mass
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              6000
+               kg
+              <span>
+                 / 
+                13228
+                 lb
+              </span>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Launch payload volume
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              25
+               m³
+              <span>
+                 / 
+                883
+                 ft³
+              </span>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Return payload mass
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              3000
+               kg
+              <span>
+                 / 
+                6614
+                 lb
+              </span>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Return payload volume
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              11
+               m³
+              <span>
+                 / 
+                388
+                 ft³
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      class="c2"
+    >
+      <img
+        alt="Dragon 1"
+        src="https://imgur.com/azYafd8.jpg"
+      />
+    </div>
+  </section>
+  <section
+    class="c1"
+    data-testid="trunk"
+  >
+    <div
+      class="c3"
+    >
+      <h3>
+        Trunk
+      </h3>
+      <h2>
+        Overview
+      </h2>
+      <table
+        aria-label="simple table"
+        class="MuiTable-root c4"
+      >
+        <tbody
+          class="MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Unpressurized 
+              Cargo
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              Solar array: 
+              2
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Volume
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              14
+               m³
+              <span>
+                 / 
+                494
+                 ft³
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section
+    class="c1"
+    data-testid="heat-shield"
+  >
+    <div
+      class="c3"
+    >
+      <h3>
+        Heat Shield
+      </h3>
+      <h2>
+        Overview
+      </h2>
+      <table
+        aria-label="simple table"
+        class="MuiTable-root c4"
+      >
+        <tbody
+          class="MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Dev Partner
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              NASA
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Material
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              PICA-X
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Size
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              3.6
+               m
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Temperature
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              3000
+              °
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section
+    class="c1"
+    data-testid="thrusters"
+  >
+    <div
+      class="c3"
+    >
+      <h3>
+        Thrusters
+      </h3>
+      <h2>
+        Overview
+      </h2>
+      <div>
+        <h4>
+          Draco
+        </h4>
+        <table
+          aria-label="simple table"
+          class="MuiTable-root c4"
+        >
+          <tbody
+            class="MuiTableBody-root"
+          >
+            <tr
+              class="MuiTableRow-root"
+            >
+              <th
+                class="MuiTableCell-root MuiTableCell-body"
+                role="cell"
+                scope="row"
+              >
+                Pods
+              </th>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+              >
+                4
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root"
+            >
+              <th
+                class="MuiTableCell-root MuiTableCell-body"
+                role="cell"
+                scope="row"
+              >
+                isp
+              </th>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+              >
+                300
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root"
+            >
+              <th
+                class="MuiTableCell-root MuiTableCell-body"
+                role="cell"
+                scope="row"
+              >
+                Amount
+              </th>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+              >
+                18
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root"
+            >
+              <th
+                class="MuiTableCell-root MuiTableCell-body"
+                role="cell"
+                scope="row"
+              >
+                Fuel 1
+              </th>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+              >
+                nitrogen tetroxide
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root"
+            >
+              <th
+                class="MuiTableCell-root MuiTableCell-body"
+                role="cell"
+                scope="row"
+              >
+                Fuel 2
+              </th>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+              >
+                monomethylhydrazine
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root"
+            >
+              <th
+                class="MuiTableCell-root MuiTableCell-body"
+                role="cell"
+                scope="row"
+              >
+                Thrust
+              </th>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+              >
+                0.4
+                 kN
+                <span>
+                   / 
+                  90
+                   lbf
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</div>
+`;

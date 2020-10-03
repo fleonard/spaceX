@@ -1,6 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Nav Component renders correctly 1`] = `
+exports[`Application Component renders correctly 1`] = `
+.c8 {
+  display: grid;
+  padding: 30px 0;
+  place-items: center;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 15px 20px;
+}
+
+.c9.c9 {
+  color: #000;
+}
+
 .c1 {
   cursor: pointer;
   height: 30px;
@@ -202,63 +223,41 @@ exports[`Nav Component renders correctly 1`] = `
   }
 }
 
-<div
-  class="c0 false"
+<main
+  class="MuiBox-root MuiBox-root-1 container"
 >
-  <svg>
-    spacex-logo.svg
-  </svg>
   <div
-    aria-controls="mobile-menu"
-    aria-expanded="false"
-    aria-label="Toggle menu"
-    class="c1"
+    class="c0 false"
   >
-    <span />
-    <span />
-    <span />
-  </div>
-  <ul
-    class="MuiList-root c2 MuiList-padding"
-  >
-    <li
-      class="MuiBox-root MuiBox-root-1 c3"
+    <svg>
+      spacex-logo.svg
+    </svg>
+    <div
+      aria-controls="mobile-menu"
+      aria-expanded="false"
+      aria-label="Toggle menu"
+      class="c1"
     >
-      <a
-        href="/rockets"
-      >
-        Rockets
-      </a>
-    </li>
-    <li
-      class="MuiBox-root MuiBox-root-2 c3"
-    >
-      <a
-        href="/dragons"
-      >
-        Dragons
-      </a>
-    </li>
-  </ul>
-  <div
-    aria-hidden="true"
-    class="MuiBox-root MuiBox-root-3 c4"
-    id="mobile-menu"
-  >
+      <span />
+      <span />
+      <span />
+    </div>
     <ul
-      class="MuiList-root c5 MuiList-padding"
+      class="MuiList-root c2 MuiList-padding"
     >
       <li
-        class="MuiBox-root MuiBox-root-4 c6"
+        class="MuiBox-root MuiBox-root-2 c3"
       >
         <a
+          aria-current="page"
+          class="active"
           href="/rockets"
         >
           Rockets
         </a>
       </li>
       <li
-        class="MuiBox-root MuiBox-root-5 c6"
+        class="MuiBox-root MuiBox-root-3 c3"
       >
         <a
           href="/dragons"
@@ -267,6 +266,68 @@ exports[`Nav Component renders correctly 1`] = `
         </a>
       </li>
     </ul>
+    <div
+      aria-hidden="true"
+      class="MuiBox-root MuiBox-root-4 c4"
+      id="mobile-menu"
+    >
+      <ul
+        class="MuiList-root c5 MuiList-padding"
+      >
+        <li
+          class="MuiBox-root MuiBox-root-5 c6"
+        >
+          <a
+            aria-current="page"
+            class="active"
+            href="/rockets"
+          >
+            Rockets
+          </a>
+        </li>
+        <li
+          class="MuiBox-root MuiBox-root-6 c6"
+        >
+          <a
+            href="/dragons"
+          >
+            Dragons
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
-</div>
+  <div
+    class="c7"
+  >
+    <h4
+      class="MuiTypography-root MuiTypography-h4"
+    >
+      Rockets
+    </h4>
+    <div
+      class="c8"
+    >
+      <div
+        class="MuiCircularProgress-root c9 MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+        role="progressbar"
+        style="width: 40px; height: 40px;"
+      >
+        <svg
+          class="MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
+        >
+          <circle
+            class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+            cx="44"
+            cy="44"
+            fill="none"
+            r="20.2"
+            stroke-width="3.6"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</main>
 `;

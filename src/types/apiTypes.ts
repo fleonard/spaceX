@@ -1,73 +1,73 @@
 export interface Rocket {
-  id: number;
   active: boolean;
-  stages: number;
   boosters: number;
-  cost_per_launch: number;
-  success_rate_pct: number;
-  first_flight: string;
-  country: string;
   company: string;
-  height: Diameter;
+  cost_per_launch: number;
+  country: string;
+  description: string;
   diameter: Diameter;
-  mass: Mass;
-  payload_weights: PayloadWeight[];
+  engines: Engines;
+  first_flight: string;
   first_stage: FirstStage;
   flickr_images: string[];
-  second_stage: SecondStage;
-  engines: Engines;
+  height: Diameter;
+  id: number;
   landing_legs: LandingLegs;
-  wikipedia: string;
-  description: string;
+  mass: Mass;
+  payload_weights: PayloadWeight[];
   rocket_id: string;
   rocket_name: string;
   rocket_type: string;
+  second_stage: SecondStage;
+  stages: number;
+  success_rate_pct: number;
+  wikipedia: string;
 }
 
 export interface Dragon {
-  id: string;
-  name: string;
-  type: string;
   active: boolean;
   crew_capacity: number;
-  sidewall_angle_deg: number;
-  orbit_duration_yr: number;
+  description: string;
+  diameter: Diameter;
   dry_mass_kg: number;
   dry_mass_lb: number;
   first_flight: string;
   flickr_images: string[];
   heat_shield: HeatShield;
-  thrusters: Thruster[];
+  height_w_trunk: Diameter;
+  id: string;
   launch_payload_mass: PayloadMass;
   launch_payload_vol: LaunchPayloadVol;
+  name: string;
+  orbit_duration_yr: number;
+  pressurized_capsule: PressurizedCapsule;
   return_payload_mass: PayloadMass;
   return_payload_vol: LaunchPayloadVol;
-  pressurized_capsule: PressurizedCapsule;
+  sidewall_angle_deg: number;
+  thrusters: Thruster[];
   trunk: Trunk;
-  height_w_trunk: Diameter;
-  diameter: Diameter;
+  type: string;
   wikipedia: string;
-  description: string;
 }
 
 export type SpaceXType = Rocket[] & Dragon[];
 
 interface Diameter {
-  meters: number;
   feet: number;
+  meters: number;
 }
 
 interface Engines {
-  number: number;
-  type: string;
-  version: string;
-  layout: string;
   engine_loss_max: number;
+  layout: string;
+  number: number;
   propellant_1: string;
   propellant_2: string;
   thrust_sea_level: Thrust;
-  thrust_vacuum: Thrust;
   thrust_to_weight: number;
+  thrust_vacuum: Thrust;
+  type: string;
+  version: string;
 }
 
 interface Thrust {
@@ -76,17 +76,17 @@ interface Thrust {
 }
 
 interface FirstStage {
-  reusable: boolean;
+  burn_time_sec: number;
   engines: number;
   fuel_amount_tons: number;
-  burn_time_sec: number;
+  reusable: boolean;
   thrust_sea_level: Thrust;
   thrust_vacuum: Thrust;
 }
 
 interface LandingLegs {
-  number: number;
   material: null;
+  number: number;
 }
 
 interface Mass {
@@ -96,34 +96,35 @@ interface Mass {
 
 interface PayloadWeight {
   id: string;
-  name: string;
   kg: number;
   lb: number;
+  name: string;
 }
 
 interface SecondStage {
+  burn_time_sec: number;
   engines: number;
   fuel_amount_tons: number;
-  burn_time_sec: number;
-  thrust: Thrust;
   payloads: Payloads;
+  reusable: boolean;
+  thrust: Thrust;
 }
 
 interface Payloads {
-  option_1: string;
   composite_fairing: CompositeFairing;
+  option_1: string;
 }
 
 interface CompositeFairing {
-  height: Diameter;
   diameter: Diameter;
+  height: Diameter;
 }
 
 interface HeatShield {
+  dev_partner: string;
   material: string;
   size_meters: number;
   temp_degrees: number;
-  dev_partner: string;
 }
 
 interface PayloadMass {
@@ -132,8 +133,8 @@ interface PayloadMass {
 }
 
 interface LaunchPayloadVol {
-  cubic_meters: number;
   cubic_feet: number;
+  cubic_meters: number;
 }
 
 interface PressurizedCapsule {
@@ -141,18 +142,18 @@ interface PressurizedCapsule {
 }
 
 interface Thruster {
-  type: string;
   amount: number;
-  isp: number;
-  pods: number;
   fuel_1: string;
   fuel_2: string;
+  isp: number;
+  pods: number;
   thrust: Thrust;
+  type: string;
 }
 
 interface Trunk {
-  trunk_volume: LaunchPayloadVol;
   cargo: Cargo;
+  trunk_volume: LaunchPayloadVol;
 }
 
 interface Cargo {

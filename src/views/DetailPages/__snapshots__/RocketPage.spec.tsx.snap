@@ -1,0 +1,712 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RocketPage Component renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 15px 20px;
+}
+
+.c1 {
+  border-bottom: 1px solid #dadce0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 25px 0;
+}
+
+.c1:first-child {
+  padding-top: 25px;
+}
+
+.c1:last-child {
+  border: 0;
+}
+
+.c2 {
+  display: block;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.c2 img {
+  height: auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.c3 {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.c3 a:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c3 table span {
+  color: #868686;
+}
+
+.c4.c4 {
+  min-width: 600px;
+  margin-bottom: 20px;
+}
+
+@media (min-width:1000px) {
+  .c1 {
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 80px 0;
+  }
+}
+
+@media (min-width:1000px) {
+  .c2 {
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width:1000px) {
+  .c3 {
+    padding-bottom: 0px;
+    padding-right: 20px;
+  }
+}
+
+<div
+  class="c0"
+>
+  <section
+    class="c1"
+    data-testid="informations"
+  >
+    <div
+      class="c2"
+    >
+      <img
+        alt="Falcon 1"
+        src="https://imgur.com/DaCfMsj.jpg"
+      />
+    </div>
+    <div
+      class="c3"
+    >
+      <h2>
+        Falcon 1
+      </h2>
+      <p>
+        The Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006-2009. On 28 September 2008, Falcon 1 became the first privately-developed liquid-fuel launch vehicle to go into orbit around the Earth.
+      </p>
+      <h3>
+        Additional Informations
+      </h3>
+      <table
+        aria-label="simple table"
+        class="MuiTable-root c4"
+      >
+        <tbody
+          class="MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Company
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              SpaceX
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Country
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              Republic of the Marshall Islands
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Cost Per Launch
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              6700000
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <a
+        href="https://en.wikipedia.org/wiki/Falcon_1"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Checkout wikipidia page for more.
+      </a>
+    </div>
+  </section>
+  <section
+    class="c1"
+    data-testid="overview"
+  >
+    <div
+      class="c3"
+    >
+      <h3>
+        Rocket
+      </h3>
+      <h2>
+        Overview
+      </h2>
+      <table
+        aria-label="simple table"
+        class="MuiTable-root c4"
+      >
+        <tbody
+          class="MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Diameter
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              1.68
+               m
+              <span>
+                 / 
+                5.5
+                 ft
+              </span>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Height
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              22.25
+               m
+              <span>
+                 / 
+                73
+                 ft
+              </span>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Mass
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              30146
+               kg
+              <span>
+                 / 
+                66460
+                 lb
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      class="c2"
+    >
+      <img
+        alt="Falcon 1"
+        src="https://imgur.com/azYafd8.jpg"
+      />
+    </div>
+  </section>
+  <section
+    class="c1"
+    data-testid="engines"
+  >
+    <div
+      class="c3"
+    >
+      <h3>
+        Engines
+      </h3>
+      <h2>
+        Overview
+      </h2>
+      <table
+        aria-label="simple table"
+        class="MuiTable-root c4"
+      >
+        <tbody
+          class="MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Number
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              1
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Type
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              merlin
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Version
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              1C
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Layout
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              single
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Propellant 1
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              liquid oxygen
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Propellant 2
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              RP-1 kerosene
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Thrust sea level
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              420
+               kN
+              <span>
+                 / 
+                94000
+                 lbf
+              </span>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Thrust vacuum
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              480
+               kN
+              <span>
+                 / 
+                110000
+                 lbf
+              </span>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Thrust to weigth
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              96
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section
+    class="c1"
+    data-testid="first-stage"
+  >
+    <div
+      class="c3"
+    >
+      <h3>
+        First Stage
+      </h3>
+      <h2>
+        Overview
+      </h2>
+      <table
+        aria-label="simple table"
+        class="MuiTable-root c4"
+      >
+        <tbody
+          class="MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Burn Time
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              169
+               sec
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Engines
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              1
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Fuel Amount
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              44.3
+               tons
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Reusable
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              No
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Thrust sea level
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              420
+               kN
+              <span>
+                 / 
+                94000
+                 lbf
+              </span>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Thrust vacuum
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              480
+               kN
+              <span>
+                 / 
+                110000
+                 lbf
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section
+    class="c1"
+    data-testid="second-stage"
+  >
+    <div
+      class="c3"
+    >
+      <h3>
+        Second Stage
+      </h3>
+      <h2>
+        Overview
+      </h2>
+      <table
+        aria-label="simple table"
+        class="MuiTable-root c4"
+      >
+        <tbody
+          class="MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Burn Time
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              378
+               sec
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Engines
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              1
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Fuel Amount
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              3.38
+               tons
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Reusable
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              No
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              Thrust
+            </th>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              31
+               kN
+              <span>
+                 / 
+                7000
+                 lbf
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</div>
+`;

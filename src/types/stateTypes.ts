@@ -1,15 +1,15 @@
 import { SpaceXType } from "./apiTypes";
 
 export interface hookState {
-  status: string;
-  error: null | string;
   data: SpaceXType;
+  error: null | string;
+  status: string;
 }
 
 export enum ActionTypes {
-  FETCHING = "FETCHING",
-  FETCHED = "FETCHED",
   ERROR = "ERROR",
+  FETCHED = "FETCHED",
+  FETCHING = "FETCHING",
 }
 
 interface BaseAction {
