@@ -55,15 +55,19 @@ exports[`Nav Component renders correctly 1`] = `
   height: calc(100vh - 60px);
   padding: 20px;
   position: absolute;
-  right: 0;
+  left: 0;
   top: 60px;
-  -webkit-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  transform: translateX(100%);
+  -webkit-transform: translateX(-100%) translateZ(0);
+  -ms-transform: translateX(-100%) translateZ(0);
+  transform: translateX(-100%) translateZ(0);
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   -webkit-transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
   width: 270px;
+  z-index: 10;
 }
 
 .c5 {

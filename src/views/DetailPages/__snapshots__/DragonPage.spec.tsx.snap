@@ -60,7 +60,6 @@ exports[`DragonPage Component renders correctly 1`] = `
 }
 
 .c4.c4 {
-  min-width: 600px;
   margin-bottom: 20px;
 }
 

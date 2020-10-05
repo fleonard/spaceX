@@ -60,7 +60,6 @@ const InfoContainer = styled.div`
 
 const StyledTable = styled(Table)`
   && {
-    min-width: 600px;
     margin-bottom: 20px;
   }
 `;

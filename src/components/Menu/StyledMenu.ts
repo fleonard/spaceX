@@ -12,11 +12,14 @@ const StyledMenuContainer = styled(Box)<MenuProps>`
   height: calc(100vh - 60px);
   padding: 20px;
   position: absolute;
-  right: 0;
+  left: 0;
   top: 60px;
-  transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
+  transform: ${({ open }) =>
+    open ? "translateX(0) translateZ(0)" : "translateX(-100%) translateZ(0)"};
+  transform-origin: 0% 0%;
   transition: transform 0.3s ease-in-out;
   width: 270px;
+  z-index: 10;
 
   @media (min-width: 768px) {
     display: none;
